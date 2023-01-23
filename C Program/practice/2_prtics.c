@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,n,t,first,last,middle,search,a[0];
+    int i,j,n,t,first,last,middle,search,a[100];
     printf("enter the value\n");
     scanf("%d",&n);
     printf("enter the element\n");
-    for(i=0;i<=n;i++)
+    for(i=0;i<=n;++i)
     scanf("%d",a[i]);
     printf("enter the find valuen\n");
     scanf("%d",&search);

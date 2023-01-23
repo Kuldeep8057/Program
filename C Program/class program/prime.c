@@ -14,8 +14,8 @@ while (i<n/2)
     i++;
 }
     if(flag==0)
-        printf("no is prime.",n);
+        printf("%d is prime no.",n);
     else 
-        printf("no is not prime.",n);
+        printf("%d is not prime no.",n);
      return 0;
 }
