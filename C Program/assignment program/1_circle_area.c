@@ -7,5 +7,5 @@ int main()
     scanf("%d\n",&r);
     area=3.14*r*r;
     printf("area of circle %d is %d",r,area);
-       return 0;
+    return 0;
 }
