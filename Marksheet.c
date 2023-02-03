@@ -65,7 +65,7 @@ else
             printf("\n\n Class : %s", students[a].cl);
             printf("\t\t\t\t\t Status : %s", students[a].rem);
             printf("\n\n\n\t\t\t\t Press Y for continue . . . ");
-            ch = getche();
+            ch = getch();
     if((ch=="y")||(ch=="Y"))
             continue;
             }

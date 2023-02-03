@@ -17,7 +17,7 @@ if(arm== no)
 }
 else
 {
-     printf("No is not armstrong");
+    printf("No is not armstrong");
 }
-     return 0;
+    return 0;
 }
