@@ -12,8 +12,8 @@ for (i=5;i>= 1;i--)
 printf("\n");
 }
 
- for(a=5;a>=1;a--)
- {
+for(a=5;a>=1;a--)
+{
     for (b=1;b>=a;b--)
     {
         printf("%d ",b);

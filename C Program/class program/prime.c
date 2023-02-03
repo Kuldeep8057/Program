@@ -17,5 +17,5 @@ while (i<n/2)
         printf("%d is prime no.",n);
     else 
         printf("%d is not prime no.",n);
-     return 0;
+    return 0;
 }

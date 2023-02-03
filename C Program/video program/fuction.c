@@ -8,7 +8,7 @@ int main()
 {
     printHello();
     printGoodbye();
-     return 0;
+    return 0;
 }
 
 //function definition
