@@ -6,11 +6,11 @@ int main()
     scanf("%d",&n);
     printf("enter the element\n");
     for(i=0;i<=n;++i)
-    scanf("%d",a[i]);
-    printf("enter the find valuen\n");
+    scanf("%d",&a[i]);
+    printf("enter the find element\n");
     scanf("%d",&search);
-    for(i=0;i<=9;++i){
-        for(j=0;j<=9;++j){
+    for(i=0;i<=n;++i){
+        for(j=0;j<=n;++j){
             if(a[i]==a[j])
             {
                 t=a[i];
@@ -19,10 +19,10 @@ int main()
             }
         }
     }
-    printf("the number of arrange is asendig order\n");
-        for(i=0;i<=9;++i)
+    printf("the number of arrange is asending order\n");
+        for(i=0;i<=n;++i)
         {
-            printf("%d",a[i]);
+            printf(" %d",a[i]);
         }
         printf("\n");
         first=0;

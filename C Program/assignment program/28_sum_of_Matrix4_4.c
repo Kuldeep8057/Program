@@ -14,16 +14,21 @@ int main()
             sum=sum+a[i][j];
         }
     }
+   
+    
     printf("\nthe matrix is  :");
     for(i=0;i<3;i++)
     {
         printf("\n");
         for(j=0;j<3;j++)
         printf("%d\t",a[i][j]);
-        }   
+        
+    }   
     printf("\nsum of the matrix element= %d",t);
+    
     printf("\nsum of diagonal element= %d",sum);
     printf("\n");
+
     return 0;
 
 }
