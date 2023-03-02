@@ -2,7 +2,8 @@
 #define M 5
 #define N 5
  // Program to pass the 2D array to a function in C
-int main(void)
+void assign();
+int main()
 {
     int arr[M][N];
     assign(arr);
